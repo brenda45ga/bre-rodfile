@@ -1,0 +1,46 @@
+body {
+    background-image: url(assets/IMG_1234\ Large.jpeg);
+    background-size: cover;
+
+}
+.parent-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 800px;
+    margin: auto;
+    margin-top: 200px;
+    
+}
+.child-item{
+    width: 400px;
+    height: 250px;
+    background-color:rgb(244, 238, 238);
+    text-align: center;
+    -webkit-box-shadow: 9px 12px 32px 7px rgba(255, 255, 255, 0.727);
+    -moz-box-shadow: 9px 12px 32px 7px rgba(199, 199, 199, 0.816);
+    box-shadow: 9px 12px 32px 7px rgba(216, 216, 216, 0.568);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(121, 177, 86, 0.747);
+    border: 2px solid;
+    border-color: white;
+    min-width: 400px;
+    min-height: 150px;
+    padding: 30px;
+
+}
+input {
+    margin: 6px;
+    min-width: 70%;
+    min-height: 10%;
+}
+button {
+    margin: 10px;
+    min-width: 30%;
+    min-height: 15%;
+    background-color: rgb(41, 238, 110);
+}
